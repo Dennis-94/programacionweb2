@@ -1,15 +1,112 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi primera pratica</title>
-    <link rel="stylesheet" href="miestilo.css">
+  <meta charset="UTF-8">
+  <title>Gimnasio</title>
+  <link rel="stylesheet" type="text/css" href="./miestilo.css">
 </head>
+
 <body>
-    <h1 class="tittle">Hola Mundo</h1>
-    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ullam architecto commodi debitis et. Dignissimos deserunt, ullam sint sunt magni repellat exercitationem pariatur quos voluptatum possimus, neque id molestias! Praesentium?</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto nemo sit assumenda amet cumque laudantium earum nobis dolor ullam nulla! In adipisci eum beatae, voluptatum animi magnam nihil quas nam.</p>
+  <header>
+    <nav class="navbar">
+      <div class="flex">
+        <h1>Guia de Entrenamiento</h1>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Entrenamientos</a></li>
+          <li><a href="#">Clases</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="showcase">
+      <div class="container">
+        <h1>Bienvenido al Gimnasio</h1>
+        <p>¡Obtén la mejor forma física y alcanza tus metas!</p>
+        <form class="showcase-form">
+          <input type="email" placeholder="Ingresa tu correo electrónico" required>
+          <button class="btn" type="submit">Suscríbete</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <section class="lower-container">
+    <div class="container">
+      <div class="grid">
+        <div class="grid-item-1">
+          <h2 class="title">Entrenamientos Personalizados</h2>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et ligula a
+            ligula vulputate sagittis. Nullam sagittis tellus nec nisi iaculis, eget rutrum urna efficitur. Etiam
+            vehicula a turpis at malesuada. Mauris sed nibh ut mauris malesuada accumsan. Aliquam erat volutpat.
+            Aliquam suscipit gravida sagittis. Aliquam mattis, metus in varius tincidunt, nunc ligula rhoncus
+            ligula, id lobortis purus elit vitae ante. In rutrum, ligula in ullamcorper interdum, lorem risus
+            laoreet sapien, in faucibus urna mauris vel neque.</p>
+        </div>
+        <div class="grid-item-2">
+          <img class="image" src="./imagenes/veo-resultados-gym-728.jpeg" alt="Gimnasio">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="container">
+      <h2 class="title">Nuestros Servicios</h2>
+      <div class="flex">
+        <div class="stat">
+          <i class="fa fa-dumbbell"></i>
+          <h3>Entrenamiento Personalizado</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="stat">
+          <i class="fa fa-calendar"></i>
+          <h3>Clases en Grupo</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="stat">
+          <i class="fa fa-heart"></i>
+          <h3>Asesoramiento Profesional</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <div class="container">
+      <h2 class="title">Testimonios</h2>
+      <div class="grid-3">
+        <div class="card">
+          <img src="./imagenes/450_1000.jpg" alt="Testimonio 1">
+          <h3>Cliente Satisfecho</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+          <img src="./imagenes/images.jpg" alt="Testimonio 2">
+          <h3>Cliente Feliz</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="card">
+          <img src="./imagenes/images1.jpg" alt="Testimonio 3">
+          <h3>Cliente Satisfecho</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Gimnasio. Todos los derechos reservados.</p>
+      <div>
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Términos y Condiciones</a>
+        <a href="#">Contacto</a>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
